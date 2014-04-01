@@ -82,10 +82,12 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CCamera.cpp" />
     <ClCompile Include="CDirectXLib.cpp" />
     <ClCompile Include="CLight.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CCamera.h" />
     <ClInclude Include="CDirectXLib.h" />
     <ClInclude Include="CLight.h" />
   </ItemGroup>
