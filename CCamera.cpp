@@ -8,7 +8,7 @@
 CCamera::CCamera() {
 	CDirectXLib();
 	//デフォルト設定
-	_location = D3DXVECTOR3(0.0f, 1.0f, 5.0f);
+	_location = D3DXVECTOR3(0.0f, 1.0f, -5.0f);
 	_lookAt = D3DXVECTOR3(0.0f, 0.1f, 0.0f);
 	_upDir = D3DXVECTOR3(0.0f, 1.0f, 0.0f);
 	//D3DXMatrixLookAtLH(&_matView, &_location, &_lookAt, &_upDir);
