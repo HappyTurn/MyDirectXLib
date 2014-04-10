@@ -6,7 +6,6 @@
 #include "CCamera.h"
 
 CCamera::CCamera() {
-	CDirectXLib();
 	//デフォルト設定
 	_location = D3DXVECTOR3(0.0f, 1.0f, -5.0f);
 	_lookAt = D3DXVECTOR3(0.0f, 0.1f, 0.0f);

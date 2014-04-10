@@ -1,11 +1,11 @@
 #pragma once
 
-#include "CDirectXLib.h"
+#include "CGameWindow.h"
 
 LPDIRECT3DDEVICE9 GetDevice(void);
 void printMessage(char* str);
 
-class CLight : public CDirectXLib {
+class CLight : public CGameWindow {
 
 public:
 	CLight();

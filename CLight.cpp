@@ -3,7 +3,6 @@
 int CLight::index = 0;
 
 CLight::CLight() {
-	CDirectXLib();
 	ZeroMemory(&this->_light, sizeof(D3DLIGHT9));
 	// デフォルト設定
 	this->_light.Type = D3DLIGHT_DIRECTIONAL;

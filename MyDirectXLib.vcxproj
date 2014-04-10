@@ -83,12 +83,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCamera.cpp" />
-    <ClCompile Include="CDirectXLib.cpp" />
+    <ClCompile Include="CGameWindow.cpp" />
     <ClCompile Include="CLight.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCamera.h" />
-    <ClInclude Include="CDirectXLib.h" />
+    <ClInclude Include="CGameWindow.h" />
     <ClInclude Include="CLight.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,9 +1,11 @@
-#include "CDirectXLib.h"
+#pragma once
+
+#include "CGameWindow.h"
 
 LPDIRECT3DDEVICE9 GetDevice(void);
 void printMessage(char* str);
 
-class CCamera : public CDirectXLib {
+class CCamera : public CGameWindow {
 
 public:
 	CCamera();
