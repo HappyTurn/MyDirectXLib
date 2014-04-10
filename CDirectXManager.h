@@ -10,6 +10,7 @@
 class CDirectXManager {
 public:
 	HRESULT initDirectX(HWND hWnd);
+	void initMatrices();
 	static LPDIRECT3DDEVICE9 getDevice();
 private:
 	LPDIRECT3D9 _direct3d9;

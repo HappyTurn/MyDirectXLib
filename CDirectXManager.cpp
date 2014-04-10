@@ -32,7 +32,21 @@ HRESULT CDirectXManager::initDirectX(HWND hWnd) {
 	// Turn on the zbuffer
 	_device->SetRenderState(D3DRS_ZENABLE, TRUE);
 
+	//マトリクス初期化
+	initMatrices();
+
 	return S_OK;
+}
+
+void CDirectXManager::initMatrices() {
+	// Set up world matrix
+	D3DXMATRIXA16 matWorld;
+	D3DXMatrixIdentity(&matWorld);
+	this->getDevice()->SetTransform(D3DTS_WORLD, &matWorld);
+
+	D3DXMATRIXA16 matProj;
+	D3DXMatrixPerspectiveFovLH(&matProj, D3DX_PI / 4, 1.0f, 1.0f, 100.0f);
+	this->getDevice()->SetTransform(D3DTS_PROJECTION, &matProj);
 }
 
 LPDIRECT3DDEVICE9 CDirectXManager::getDevice() {
