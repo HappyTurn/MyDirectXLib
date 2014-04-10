@@ -83,13 +83,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CCamera.cpp" />
+    <ClCompile Include="CDirectXManager.cpp" />
     <ClCompile Include="CGameWindow.cpp" />
     <ClCompile Include="CLight.cpp" />
+    <ClCompile Include="CModel.cpp" />
+    <ClCompile Include="CWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CCamera.h" />
+    <ClInclude Include="CDirectXManager.h" />
     <ClInclude Include="CGameWindow.h" />
     <ClInclude Include="CLight.h" />
+    <ClInclude Include="CModel.h" />
+    <ClInclude Include="CWindow.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

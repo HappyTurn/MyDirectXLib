@@ -5,7 +5,7 @@
 LPDIRECT3DDEVICE9 GetDevice(void);
 void printMessage(char* str);
 
-class CLight : public CGameWindow {
+class CLight : public CDirectXManager {
 
 public:
 	CLight();

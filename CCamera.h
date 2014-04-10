@@ -5,7 +5,7 @@
 LPDIRECT3DDEVICE9 GetDevice(void);
 void printMessage(char* str);
 
-class CCamera : public CGameWindow {
+class CCamera : public CDirectXManager {
 
 public:
 	CCamera();
