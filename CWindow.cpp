@@ -1,5 +1,5 @@
 #include "CWindow.h"
-
+#include <iostream>
 
 CWindow::CWindow() {
 
@@ -41,7 +41,6 @@ void CWindow::createWindow(LPCWSTR name, int width, int height) {
 		_hInst,
 		NULL
 		);
-
 	ShowWindow(_hWnd, SW_SHOW);
 	UpdateWindow(_hWnd);
 

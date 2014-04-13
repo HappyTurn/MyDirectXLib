@@ -16,9 +16,6 @@ CModel::CModel(LPCWSTR path) {
 	if (_mesh == NULL) {
 		std::cout << "X FILE LOAD ERROR" << std::endl;
 	}
-	else {
-		std::cout << "X FILE LODED" << std::endl;
-	}
 }
 
 CModel::~CModel() {
