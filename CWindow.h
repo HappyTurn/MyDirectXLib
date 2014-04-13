@@ -9,6 +9,7 @@ public:
 	void  createWindow(LPCWSTR name, int width, int height);
 	void show();
 	HWND getWindowHandle();
+	HINSTANCE getInstanceHandle();
 private:
 	HWND _hWnd;
 	HINSTANCE _hInst;

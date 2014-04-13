@@ -67,6 +67,10 @@ HWND CWindow::getWindowHandle() {
 	return _hWnd;
 }
 
+HINSTANCE CWindow::getInstanceHandle() {
+	return _hInst;
+}
+
 void CWindow::show() {
 	ShowWindow(_hWnd, SW_SHOW);
 	UpdateWindow(_hWnd);
