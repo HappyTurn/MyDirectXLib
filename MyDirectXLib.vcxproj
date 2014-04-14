@@ -85,6 +85,7 @@
     <ClCompile Include="CCamera.cpp" />
     <ClCompile Include="CDirectXManager.cpp" />
     <ClCompile Include="CGameWindow.cpp" />
+    <ClCompile Include="CKeyboard.cpp" />
     <ClCompile Include="CLight.cpp" />
     <ClCompile Include="CModel.cpp" />
     <ClCompile Include="CWindow.cpp" />
@@ -93,6 +94,7 @@
     <ClInclude Include="CCamera.h" />
     <ClInclude Include="CDirectXManager.h" />
     <ClInclude Include="CGameWindow.h" />
+    <ClInclude Include="CKeyboard.h" />
     <ClInclude Include="CLight.h" />
     <ClInclude Include="CModel.h" />
     <ClInclude Include="CWindow.h" />
